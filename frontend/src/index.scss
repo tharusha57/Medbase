@@ -1,0 +1,75 @@
+:root {
+  --color-blue: #2F89FC;
+  --color-gray: #3F3F3F;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white
+}
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 36px;
+
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 30px;
+
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 24px;
+
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+button {
+  background: #2F89FC;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10.5px 43.5px;
+}

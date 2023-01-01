@@ -1,0 +1,137 @@
+.dark-bg {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.5;
+}
+
+.hide {
+    display: none;
+}
+
+
+.medicine-log {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98vw;
+
+    .medicine-log-container {
+        padding: 40px 40px;
+        width: 1010px;
+        margin-left: 100px;
+
+        h3 {
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #3F3F3F;
+            margin-top: 9px;
+        }
+
+        button {
+            margin-top: 37px;
+            width: fit-content;
+            height: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2269C5;
+            transition: all 0.8s;
+        }
+
+        button:active {
+            opacity: 50%;
+            transition: 0s
+        }
+        
+        .log-container{
+            margin-top: 42px;
+        }
+    }
+}
+
+@media only screen and (max-width:1400px) {
+
+    .medicine-log {
+        .medicine-log-container {
+            padding: 40px 40px;
+            width: 800px;
+            margin-left: 85px;
+        }
+    }
+}
+
+@media only screen and (max-width:950px) {
+
+    .medicine-log {
+        .medicine-log-container {
+            width: 600px;
+
+            p {
+                font-size: 12px;
+            }
+          
+        }
+    }
+}
+
+@media only screen and (max-width:769px) {
+
+    .medicine-log {
+        text-align: center;
+
+        button{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .medicine-log-container {
+            width: 600px;
+            margin: auto;
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:650px) {
+
+    .medicine-log {
+        text-align: center;
+        width: 100%;
+        display: block;
+
+
+        .medicine-log-container {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h3 {
+                font-size: 25px;
+                line-height: 25px;
+            }
+    
+            p {
+                font-size: 15px;
+            }
+    
+            button {
+                font-size: 15px;
+            }
+        }
+    }
+}

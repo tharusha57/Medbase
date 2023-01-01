@@ -1,0 +1,130 @@
+.notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98vw;
+
+    .notes-container {
+        padding: 40px 40px;
+        width: 1010px;
+        margin-left: 100px;
+
+        h3 {
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #3F3F3F;
+            margin-top: 9px;
+        }
+
+        button {
+            margin-top: 37px;
+            width: fit-content;
+            height: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2269C5;
+            transition: all 0.8s;
+        }
+
+        button:active {
+            opacity: 50%;
+            transition: 0s
+        }
+
+        .note-container{
+            margin-top: 28px;
+        }
+    }
+}
+
+@media only screen and (max-width:1400px) {
+
+    .notes {
+        .notes-container {
+            padding: 40px 40px;
+            width: 800px;
+            margin-left: 85px;
+        }
+    }
+}
+
+@media only screen and (max-width:950px) {
+
+    .notes {
+        .notes-container {
+            width: 600px;
+
+            p {
+                font-size: 12px;
+            }
+          
+        }
+    }
+}
+
+@media only screen and (max-width:769px) {
+
+    .notes {
+        text-align: center;
+
+        button{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .notes-container {
+            width: 600px;
+            margin: auto;
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:650px) {
+
+    .notes {
+        text-align: center;
+        width: 100%;
+        display: block;
+
+
+        .notes-container {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h3 {
+                font-size: 25px;
+                line-height: 25px;
+            }
+    
+            p {
+                font-size: 15px;
+            }
+    
+            button {
+                font-size: 15px;
+            }
+
+        }
+
+        
+    }
+}
